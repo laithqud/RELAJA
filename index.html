@@ -15,17 +15,19 @@
 <body style="background-color:var(--main-color)">
     <header>
         <nav class="navbar" style="background-color: var(--secondary-color);">
-            <div class="container-fluid d-flex flex-nowrap align-items-center justify-content-around ">
+            <div class="container d-flex flex-nowrap align-items-center justify-content-between ">
 
               <a class="navbar-brand fs-1" href="#" style="color: var(--text-color); font-family: 'rancho';">Relaja</a>
              
                 <div class="navbar-nav d-flex flex-row gap-4">
-                  <a class="nav-link fs-6" href="#" style="color: var(--text-color);">Home</a>
-                  <a class="nav-link fs-6" href="#rooms" style="color: var(--text-color);">Rooms</a>
-                  <a class="nav-link fs-6" href="#services" style="color: var(--text-color);">Services</a>
-                  <a class="nav-link fs-6" href="#activiyies" style="color: var(--text-color);">Activity</a>
-                  <a class="nav-link fs-6" href="#contactUs" style="color: var(--text-color);">Contact Us</a>
+                  <a class="nav-link fs-6 nav-links" href="#">Home</a>
+                  <a class="nav-link fs-6 nav-links" href="#rooms" >Rooms</a>
+                  <a class="nav-link fs-6 nav-links" href="#services" >Services</a>
+                  <a class="nav-link fs-6 nav-links" href="#activiyies" >Activity</a>
+                  <a class="nav-link fs-6 nav-links" href="#contactUs" >Contact Us</a>
                 </div>
+
+                <a class="text-decoration-none text-white" href="">Log In</a>
             </div>
           </nav>
     </header>
@@ -45,13 +47,13 @@
 
       </div>
 
-      <div class="container-fluid d-flex flex-column align-items-center padding-welcome">
+      <div class="container-fluid d-flex flex-column align-items-center padding-welcome padding-155">
         <h1 style="color: var(--text-color);" class="fs-1 ">Welcome to our Hotel!</h1>
         <br>
-        <h5 style="color: var(--text-color);" class="fs-5 text-center lh-base p-5">Welcome to <span style="font-family: 'rancho';" class="fs-1">Relaja !</span> Enjoy a comfortable stay with top amenities, including a restaurant, pool, spa, and free Wi-Fi. Our staff is available 24/7 to assist you. Relax and explore nearby attractions—we are committed to making your visit truly special. Relax, recharge, and let us take care of the rest—welcome to your home away from home!</h5>
+        <h5 style="color: var(--text-color);" class="fs-5 text-center lh-base padding-welcome-desc">Welcome to <span style="font-family: 'rancho';" class="fs-1">Relaja !</span> Enjoy a comfortable stay with top amenities, including a restaurant, pool, spa, and free Wi-Fi. Our staff is available 24/7 to assist you. Relax and explore nearby attractions—we are committed to making your visit truly special. Relax, recharge, and let us take care of the rest—welcome to your home away from home!</h5>
       </div>
 
-      <section id="rooms" class="padding-welcome">
+      <section id="rooms" class="padding-155">
         <h1 style="color: var(--text-color);" class="fs-1 ps-4">Rooms Types</h1>
         <div style="width: 300px; border-bottom: 1px solid var(--text-color);" class="pt-3"></div>
 
@@ -79,33 +81,35 @@
       </section>
 
       <br><br><br>
-      <section id="services" class="d-flex flex-column align-items-center padding-welcome">
+      <section id="services" class="d-flex flex-column align-items-center justify-content-center padding-155">
         <h1 style="color: var(--text-color);" class="fs-1  ">Revitalize Your Senses</h1>
         <div style="width: 500px; border-bottom: 1px solid var(--text-color);" class="pt-3"></div>
 
         <br>
         <br>
-
-        <div class="d-flex align-items-center justify-content-center service-width">
-          <img src="images/massage.jpg" class="rounded-5" style="width: 250px; height: 200px;" alt="">
-          <div>
-            <h1 class="ps-5 fs-2" style="color: var(--text-color);">Massage</h1>
-            <h5 class="ps-5" style="color: var(--text-color);">Enjoy a relaxing massage tailored to relieve stress and muscle tension, leaving you refreshed and rejuvenated.</h5>
+        <div class="container pt-5 d-flex flex-column align-items-center justify-content-center">
+          <div class="d-flex align-items-center justify-content-center service-width">
+            <img src="images/massage.jpg" class="rounded-5 service-img" alt="">
+            <div>
+              <h1 class="ps-5 fs-2 pb-3" style="color: var(--text-color);">Massage</h1>
+              <h5 class="ps-5" style="color: var(--text-color);">Enjoy a relaxing massage tailored to relieve stress and muscle tension, leaving you refreshed and rejuvenated.</h5>
+            </div>
           </div>
-        </div>
-        <div class="d-flex align-items-center justify-content-center service-width">
-          <div>
-            <h1 class="pe-5 fs-2" style="color: var(--text-color);">Therapeutic</h1>
-            <h5 class="pe-5" style="color: var(--text-color);">Target pain and aid recovery with treatments like deep tissue and sports massage, tailored to your needs.</h5>
-          </div>
-          <img src="images/theraputik.jpg" class="rounded-5" style="width: 250px; height: 200px;" alt="">
 
-        </div>
-        <div class="d-flex align-items-center justify-content-center service-width">
-          <img src="images/beautyCare.jpg" class="rounded-5" style="width: 250px; height: 200px;" alt="">
-          <div>
-            <h1 class="ps-5 fs-2" style="color: var(--text-color);">Beauty Care</h1>
-            <h5 class="ps-5" style="color: var(--text-color);">Pamper yourself with our beauty care services, including facials, manicures, and pedicures, designed to refresh and rejuvenate your skin and appearance.</h5>
+          <div class="d-flex align-items-center justify-content-center service-width">
+            <div>
+              <h1 class="pe-5 fs-2 pb-3" style="color: var(--text-color);">Therapeutic</h1>
+              <h5 class="pe-5" style="color: var(--text-color);">Target pain and aid recovery with treatments like deep tissue and sports massage, tailored to your needs.</h5>
+            </div>
+            <img src="images/theraputik.jpg" class="rounded-5 service-img"  alt="">
+          </div>
+
+          <div class="d-flex align-items-center justify-content-center service-width">
+            <img src="images/beautyCare.jpg" class="rounded-5 service-img" alt="">
+            <div class="">
+              <h1 class="ps-5 fs-2 pb-3" style="color: var(--text-color);">Beauty Care</h1>
+              <h5 class="ps-5" style="color: var (--text-color);">Pamper yourself with our beauty care services, including facials, manicures, and pedicures, designed to refresh and rejuvenate your skin and appearance.</h5>
+            </div>
           </div>
         </div>
 
@@ -113,7 +117,7 @@
 
 
 
-      <section id="activiyies" class="d-flex flex-column align-items-center service-width padding-welcome">
+      <section id="activiyies" class="d-flex flex-column align-items-center service-width padding-155">
         <h1 style="color: var(--text-color);" class="fs-1 ">Activity Center</h1>
         <div style="width: 350px; border-bottom: 1px solid var(--text-color);" class="pt-3"></div>
 
@@ -154,7 +158,7 @@
         </div>
       </section>
 
-      <section id="contactUs" class="d-flex flex-column align-items-center justify-content-center padding-welcome">
+      <section id="contactUs" class="d-flex flex-column align-items-center justify-content-center padding-155">
         <h1 style="color: var(--text-color);" class="fs-1 ">Contact Us</h1>
         <div style="width: 350px; border-bottom: 1px solid var(--text-color);" class="pt-3"></div>
 
